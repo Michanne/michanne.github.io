@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="store">
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -19,7 +21,11 @@
 </head>
 
 <body>
-	 <button type="button" class="btn btn-primary">Test</button>
+	 <nav>
+	 	<div>
+	 		<p align="left">{{1 + 6}}</p>
+	 	</div>
+	 </nav>
 </body>
 
 </html>
