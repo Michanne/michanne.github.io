@@ -1,5 +1,5 @@
 (function(){
-	var app = angular.module('main', ['ngRoute']);
+	var app = angular.module('main', []);
 
 	app.controller('MainController', function(){
 		this.githubName = "michanne";
