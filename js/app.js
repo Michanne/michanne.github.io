@@ -1,7 +1,7 @@
-var app = angular.module('main', []);
+var app = angular.module('mainApp', []);
 
 (function(){
-	app.controller('MainController', function(){
+	app.controller('mainController', function(){
 		this.githubName = 'michanne';
 	});
 })();
