@@ -1,1 +1,7 @@
-var app = angular.module('store', [ ]);
+(function(){
+	var app = angular.module('main', [ ]);
+
+	app.controller('mainController', function(){
+		this.githubName = "michanne";
+	});
+})();
