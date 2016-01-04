@@ -1,6 +1,6 @@
 @font-face{
 	font-family: Rezland;
-	src: url('../fonts/rezland.ttf');
+	src: url('http://michanne.github.io/fonts/rezland.ttf');
 }
 
 nav>div>p>.nav-gh-handle{
