@@ -1,0 +1,18 @@
+@font-face{
+	font-family: Rezland;
+	src: url('../fonts/rezland.ttf');
+}
+
+nav>div>p>.nav-gh-handle{
+	font-family: 'Rezland', 'Verdana';
+	font-size: 150%;
+	color: gray;
+	float: left;
+	padding: 0px 0px 0px 10px;
+}
+
+nav>div>p>.nav-menu{
+	color: gray;
+	float: right;
+	padding: 10px;
+}
