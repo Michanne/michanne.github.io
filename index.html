@@ -14,22 +14,15 @@
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			alert("Test!");
+			/* Paste the navbar into the top of the webpage */
+			$("#main-nav-bar").load("layout/main-nav-bar.html");
 		});
 	</script>
 
 </head>
 
 <body>
-	 <nav>
-	 	<div ng-controller="mainController as main">
-	 		<p>
-	 			<span class="nav-gh-handle">{{main.githubName}}</span>
-	 			<span class="nav-menu">About</span>
-	 			<span class="nav-menu">Portfolio</span>
-	 		</p>
-	 	</div>
-	 </nav>
+	<div id="main-nav-bar"> </div>
 </body>
 
 </html>
