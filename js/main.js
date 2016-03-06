@@ -1,9 +1,9 @@
 requirejs.config({
 	paths: {
-		angular: 'angular.min.js',
-		jquery: 'jquery-1.11.1.min.js',
-		app: 'app.js',
-		main: 'main.js'
+		angular: 'angular.min',
+		jquery: 'jquery-1.11.1.min',
+		app: 'app',
+		main: 'main'
 	},
 	shim: {
         angular: {
