@@ -1,4 +1,4 @@
-require([
+requirejs([
       'angular',
       'app'
     ], function(angular) {

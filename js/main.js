@@ -1,4 +1,4 @@
-require.config({
+requirejs.config({
 	paths: {
 		angular: 'angular.min.js',
 		jquery: 'jquery-1.11.1.min.js',
